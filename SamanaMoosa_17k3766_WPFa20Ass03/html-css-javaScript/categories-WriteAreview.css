@@ -1,0 +1,26 @@
+
+.row{
+	background-color: white;
+	border: 1px solid #D4D7DB;
+	margin: 70px;
+}
+.h2up{
+	font-size: 18px;
+	color: rgba(6.3, 9.8, 13.3, 0.7);
+}
+.up{
+	color: #31BEF4;
+	line-height: 3.5em;
+	text-decoration: none;
+}
+.column{
+	float: left;
+	width: 25%;
+	padding: 10px;
+	max-height: 3000px; 
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
